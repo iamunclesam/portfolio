@@ -13,7 +13,7 @@ const projects = [
     description:
       "A well-being application consisting of matchmaking, therapy, life coaching, tour guides, and vendor services.",
     icon: <Heart className="h-10 w-10 text-primary" />,
-    demoLink: "#",
+    demoLink: "https://www.rendezvouscare.com",
     codeLink: "#",
   },
   {
@@ -21,7 +21,7 @@ const projects = [
     description:
       "A tool for organizations offering automated payouts, staff management, and financial tracking solutions.",
     icon: <DollarSign className="h-10 w-10 text-primary" />,
-    demoLink: "#",
+    demoLink: "https://payrendr.com/",
     codeLink: "#",
   },
   {
@@ -119,7 +119,7 @@ export default function Projects() {
                       <ExternalLink size={14} className="group-hover:translate-x-1 transition-transform" />
                     </a>
                   </Button>
-                  <Button variant="outline" size="sm" className="group">
+                  {/* <Button variant="outline" size="sm" className="group">
                     <a
                       href={project.codeLink}
                       className="flex items-center gap-1"
@@ -129,7 +129,7 @@ export default function Projects() {
                       <span>Code</span>
                       <Github size={14} className="group-hover:translate-x-1 transition-transform" />
                     </a>
-                  </Button>
+                  </Button> */}
                 </CardFooter>
               </Card>
             </motion.div>
